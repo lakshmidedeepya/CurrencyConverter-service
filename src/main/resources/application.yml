@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: CurrencyConversion-service
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+currencydata:
+  currencymap:    
+    1: 70.0
+    44: 88.0
+    91: 1.0
